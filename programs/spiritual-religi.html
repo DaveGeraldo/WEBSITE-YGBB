@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiritual & Religi | Yayasan Genta Benih Bangsa</title>
+    <meta name="description" content="Kegiatan pembinaan spiritual dan religi sebagai bagian dari pembangunan karakter dan kehidupan bermasyarakat.">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="navbar">
+    <div class="container nav-container">
+        <a href="../index.html" class="logo-wrapper">
+            <img src="../assets/logoyayasan.jpeg" alt="Logo Yayasan Genta Benih Bangsa">
+            <div class="logo-text"><span>YAYASAN</span><strong>GENTA BENIH BANGSA</strong></div>
+        </a>
+        <nav class="nav-menu">
+            <a href="../index.html">Beranda</a>
+            <a href="../index.html#about">Tentang Kami</a>
+            <a href="../index.html#program" class="active">Program</a>
+            <a href="../index.html#contact">Kontak</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Buka menu">☰</button>
+    </div>
+</header>
+<main>
+<section class="program-hero">
+    <div class="container program-hero-content">
+        <span class="eyebrow">PROGRAM YGBB</span>
+        <h1>Spiritual <span>&</span> Religi</h1>
+        <p>Kegiatan pembinaan spiritual dan religi sebagai bagian dari pembangunan karakter dan kehidupan bermasyarakat.</p>
+        <a href="../index.html#program" class="back-link">← Kembali ke Program</a>
+    </div>
+</section>
+<section class="section">
+    <div class="container program-detail-grid">
+        <div class="detail-block">
+            <span class="eyebrow">TENTANG PROGRAM</span>
+            <h2>Memberikan <span>Dampak</span> Nyata</h2>
+            <p>Program Spiritual dan Religi merupakan bagian dari kontribusi YGBB dalam mendukung pembinaan karakter, kehidupan spiritual, dan nilai-nilai kebersamaan dalam masyarakat.</p>
+        </div>
+        <div class="detail-block">
+            <span class="eyebrow">BENTUK KEGIATAN</span>
+            <ul class="activity-list"><li>✓ Pembinaan spiritual</li><li>✓ Kegiatan religi</li><li>✓ Penguatan karakter</li><li>✓ Kegiatan kebersamaan masyarakat</li></ul>
+        </div>
+    </div>
+</section>
+<section class="section documentation">
+    <div class="container">
+        <div class="section-heading centered">
+            <span class="eyebrow">DOKUMENTASI</span>
+            <h2>Dokumentasi <span>Kegiatan</span></h2>
+            <p>Foto-foto kegiatan program ini akan ditampilkan di bagian ini.</p>
+        </div>
+        <div class="gallery-placeholder">
+            <div class="documentation-card">FOTO KEGIATAN</div>
+            <div class="documentation-card">FOTO KEGIATAN</div>
+            <div class="documentation-card">FOTO KEGIATAN</div>
+        </div>
+        <p class="documentation-note">Placeholder ini dapat diganti dengan foto kegiatan setelah dokumentasi tersedia.</p>
+    </div>
+</section>
+</main>
+<footer class="footer">
+    <div class="container footer-container">
+        <div class="footer-brand">
+            <img src="../assets/logoyayasan.jpeg" alt="Logo Yayasan Genta Benih Bangsa">
+            <div><strong>Yayasan Genta Benih Bangsa</strong><p>Menumbuhkan benih kebaikan bagi masyarakat.</p></div>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/ygbb.kupang" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@ygbb2023" target="_blank">TikTok</a>
+            <a href="https://www.facebook.com/share/1HcL8janwg/" target="_blank">Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>© 2026 Yayasan Genta Benih Bangsa. All Rights Reserved.</p></div></div>
+</footer>
+<script>
+const menuToggle=document.querySelector('.menu-toggle');
+const navMenu=document.querySelector('.nav-menu');
+menuToggle.addEventListener('click',()=>navMenu.classList.toggle('show'));
+document.querySelectorAll('.nav-menu a').forEach(link=>link.addEventListener('click',()=>navMenu.classList.remove('show')));
+</script>
+</body>
+</html>
